@@ -1,74 +1,46 @@
-📊 Phone Sales Dashboard – Power BI
+# Phone Sales Dashboard (Power BI)
 
-This repository contains a Power BI Dashboard that visualizes and analyzes mobile phone sales data across multiple cities, brands, and payment methods.
+This project is a **Power BI Dashboard** built to analyze and visualize phone sales data.  
+It provides insights into sales performance, revenue trends, and customer preferences.
 
---Overview
+---
 
-The dashboard provides insights into:
+## Features
+- Interactive dashboard with slicers for filtering
+- Visualization of total sales and revenue
+- Insights into most sold phone models
+- Trend analysis for sales growth
 
-Total Sales, Transactions, and Quantity
+---
 
-Average Price of Mobiles
+## Dashboard Preview
+![Phone Sales Dashboard](Phone%20Sales%20Dashboard%20Image.png)
 
-Sales by City, Mobile Model, and Brand
+---
 
-Customer Ratings Distribution
+## Tools Used
+- **Power BI** for data modeling & visualization  
+- **Excel/CSV** as the data source 
 
-Transactions by Payment Method
+---
 
-Sales Trends by Month and Day of the Week
+##  How to Use
+1. Clone/download this repository.  
+2. Open the `Phone Sales Dashboard.pbix` file in Power BI Desktop.  
+3. Explore and interact with the dashboard.  
 
+---
 
---Dashboard Preview
+## Author
+Created by **Pushkal Choudhary**  
 
-(Replace with actual screenshot path in your repo)
+---
 
+## Repository Structure
+-Phone Sales Dashboard.pbix # Power BI project file
 
---Files in Repository
+-Phone Sales Dashboard Image.png # Dashboard screenshot
 
-Phone Sales Dashboard.pbix → Power BI Desktop file
+-README.md # Project documentation
 
-Phone Sales Dashboard Image.png → Dashboard preview image
-
-README.md → Project documentation
-
-
---Features
-
-Interactive slicers for Month, Mobile Model, Payment Method, City, and Brand
-Map visualization for city-level sales insights
-Dynamic charts (Bar, Line, Pie, Cards) to track KPIs
-Clean and professional design for quick decision-making
-
-
---Tools & Technologies
-
-Power BI Desktop
-
-SQL Server / CSV (Data Source, if applicable)
-
-DAX for calculated measures
-
-
---Key Insights
-
-Highest selling mobile models include iPhone SE, OnePlus Nord, Galaxy Note 20, and Vivo V51.
-
-Apple generated the maximum total sales despite fewer quantities compared to other brands.
-
-Customer ratings skew positively with majority 4–5 star reviews.
-
-UPI and Cash dominate payment methods, while Debit and Credit card usage is moderate.
-
-Sales peak in July and drop slightly in September.
-
-
---How to Use
-
-Clone this repository
-
-Open Phone Sales Dashboard.pbix in Power BI Desktop
-
-Refresh data connection
-
-Interact with filters/slicers to explore insights
+-Excel Data File
